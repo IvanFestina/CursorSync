@@ -16,6 +16,9 @@
             },
             {
                 "backupFolder": "1763162501425"
+            },
+            {
+                "backupFolder": "1763163644916"
             }
         ]
     },
@@ -26,7 +29,8 @@
         },
         "emptyWindows": {
             "1763160671633": "__default__profile__",
-            "1763162501425": "__default__profile__"
+            "1763162501425": "__default__profile__",
+            "1763163644916": "__default__profile__"
         }
     },
     "lastKnownMenubarData": {
@@ -46,6 +50,17 @@
                         "label": "New Window with Profile",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "workbench.action.openProfile.Default",
+                                    "label": "Default"
+                                },
+                                {
+                                    "id": "workbench.action.openProfile.IvanFestina",
+                                    "label": "IvanFestina"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.createProfile",
                                     "label": "New Profile..."
@@ -668,7 +683,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "checked": true
                     }
                 ]
             },
@@ -1106,8 +1122,28 @@
             "Preferences": {
                 "items": [
                     {
-                        "id": "workbench.profiles.actions.manageProfiles",
-                        "label": "&&Profiles"
+                        "id": "submenuitem.Profiles",
+                        "label": "Profile (Default)",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "workbench.profiles.actions.profileEntry.__default__profile__",
+                                    "label": "Default",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "workbench.profiles.actions.profileEntry.-f93bb7a",
+                                    "label": "IvanFestina"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.profiles.actions.manageProfiles",
+                                    "label": "&&Profiles"
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "aiSettings.action.openhidden",
@@ -1608,8 +1644,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 0,
-            "sideBarWidth": 300,
-            "auxiliarySideBarWidth": 432,
+            "sideBarWidth": 0,
+            "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1637,5 +1673,11 @@
                 ]
             ]
         }
-    }
+    },
+    "userDataProfiles": [
+        {
+            "location": "-f93bb7a",
+            "name": "IvanFestina"
+        }
+    ]
 }
