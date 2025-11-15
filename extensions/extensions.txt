@@ -1,0 +1,7 @@
+alefragnani.project-manager
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+gruntfuggly.todo-tree
+usernamehw.errorlens
+xyz.local-history
